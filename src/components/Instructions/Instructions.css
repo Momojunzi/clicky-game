@@ -1,0 +1,6 @@
+.instructions{
+  position: absolute;
+  z-index: 10;
+  
+  opacity: 0;
+}
