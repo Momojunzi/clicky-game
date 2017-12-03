@@ -106,6 +106,11 @@ class App extends Component {
     }
   }
 
+  winButtonHandler = () => {
+    document.querySelector('#WinPage').style.display = 'none';
+    window.location.reload();
+  }
+
   render() {
     const { animalsArr } = this.state;
 
@@ -114,7 +119,7 @@ class App extends Component {
 
         <StartPage click={this.startButtonHandler} />
         <GamePage chosenAnimal={this.state.animal} animalsArr={animalsArr} click={this.imageClickHandler} />
-        <WinPage />
+        <WinPage click={this.winButtonHandler} />
       </div>
     );
   }

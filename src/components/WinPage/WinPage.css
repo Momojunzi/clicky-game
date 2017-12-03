@@ -1,3 +1,16 @@
 .win-page {
   display: none;
+  margin-top: 40px;
+}
+
+.win-headline {
+  margin-top: 40px;
+}
+
+.win-sub {
+  margin-top: 20px;
+}
+
+.win-button {
+  margin-top: 40px;
 }
